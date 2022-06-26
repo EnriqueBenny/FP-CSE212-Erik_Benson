@@ -8,7 +8,7 @@ FILO, First In, Last Out. This is the first and most important concept you need 
 > * list() - the array used for a stack. 
 > * list.append() - adding items on top of the stack - FI (First-In)
 > * list.pop() - remove the last item from the list. LO (Last-Out)
-
+#### Copy this code into VS Code
 ```python
 #create the array
 example = list()
@@ -23,4 +23,6 @@ example.append(5)
 example.pop()
 example.pop()
 example.pop()
+print(example)
+# 0 1 2
 ```
