@@ -70,7 +70,8 @@ problem.pop()
 problem.append(18)
 problem.append(19)
 problem.append(20)
-#What will the output be? Decide before you print it.
+#What will the output be? Write it down before you print the list.
+#print(problem)
 
 #Problem 2
 # We are looking for the output:
@@ -109,3 +110,5 @@ for i in range(0, pops):
     problem.pop()
 print(problem)
 ```
+Finish the problems, then compare with the solution.
+[Solutions](solution1_stacks.py)
