@@ -8,7 +8,8 @@ FILO, First In, Last Out. This is the first and most important concept you need 
 > * list() - the array used for a stack. 
 > * list.append() - adding items on top of the stack - FI (First-In)
 > * list.pop() - remove the last item from the list. LO (Last-Out)
-#### Copy this code into VS Code
+#### Example
+Copy this code into VS Code:
 ```python
 #create the array
 example = list()
@@ -24,5 +25,53 @@ example.pop()
 example.pop()
 example.pop()
 print(example)
-# 0 1 2
+# Result will be: [0, 1, 2]
+example.append(6)
+example.append(7)
+example.append(8)
+example.pop()
+example.pop()
+example.append(9)
+print(example)
+# Result will be: [0, 1, 2, 6, 9]
+```
+#### Problem
+Now you try:
+
+```python
+#Problem 1
+problem = list()
+problem.append(0)
+problem.append(1)
+problem.append(2)
+problem.pop()
+problem.pop()
+problem.append(3)
+problem.append(4)
+problem.append(5)
+problem.append(6)
+problem.append(7)
+problem.append(8)
+problem.pop()
+problem.pop()
+problem.pop()
+problem.append(9)
+problem.append(10)
+problem.append(11)
+problem.append(12)
+problem.pop()
+problem.append(13)
+problem.append(14)
+problem.append(15)
+problem.append(16)
+problem.append(17)
+problem.pop()
+problem.pop()
+problem.append(18)
+problem.append(19)
+problem.append(20)
+#What will the output be? Decide before you print it.
+
+#Problem 2
+
 ```
