@@ -1,4 +1,6 @@
-#Problem 1
+[Return to Stacks](1-topic_stacks.md)
+# Problem 1
+```python
 problem = list()
 problem.append(0)
 problem.append(1)
@@ -33,8 +35,9 @@ problem.append(20)
 #Solution: 
 # [0, 3, 4, 5, 9, 10, 11, 13, 14, 15, 18, 19, 20]
 print(problem)
-
+```
 #Problem 2
+```python
 # We are looking for the output:
 # [0, 1, 2, 3, 11, 12, 13, 14, 15, 16]
 # Change the variables 'pops' to the proper value to find
@@ -72,3 +75,4 @@ pops = 4
 for i in range(0, pops):
     problem.pop()
 print(problem)
+```
