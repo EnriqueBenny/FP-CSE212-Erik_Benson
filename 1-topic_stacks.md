@@ -113,4 +113,4 @@ print(problem)
 ```
 Finish the problems, then compare with the solution.
 
-[Solutions](solution1_stacks.py)
+[Solutions](solution1_stacks.md)
