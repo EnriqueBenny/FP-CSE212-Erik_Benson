@@ -1,5 +1,8 @@
 # Linked Lists
 ---
+[Previous Topic](1-topic_stacks.md)
+[Return to main menu](0-welcome.md)
+[Next topic](3-topic_trees.md)
 #### Intro
 A linked list is an array of information that is not adjacent to each other. Each value in a linked list contains both values and pointers that guide the program from one value to another.
 
