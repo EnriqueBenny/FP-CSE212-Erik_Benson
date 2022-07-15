@@ -1,3 +1,4 @@
+# Stack Solutions:
 [Return to Stacks](1-topic_stacks.md)
 # Problem 1
 ```python

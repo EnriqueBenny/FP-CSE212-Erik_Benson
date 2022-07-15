@@ -1,7 +1,9 @@
 # Stacks
 ---
-[Return to main menu](0-welcome.md)
-[Go to next topic](2-topic_linked_list.md)
+[Main menu](0-welcome.md)
+
+[Next topic](2-topic_linked_list.md)
+
 #### Introduction to Stacks
 FILO, First In, Last Out. This is the first and most important concept you need to know with a stack. A stack is a linear array of information. It adds values to the end of the array, and removes them from the end of the array, or FILO. It's important to imagine something like a stack of pancakes or of items in a box. You can't just pull from the middle or bottom in either of these scenarios, you have to pull out the stuff on top first, item by item until you reach what you're after.
 

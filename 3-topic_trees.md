@@ -1,7 +1,8 @@
 # Trees
 ---
 [Previous Topic](2-topic_linked_list.md)
-[Return to main menu](0-welcome.md)
+
+[Main menu](0-welcome.md)
 ## Intro
 Trees in a programming sense are a method of sorting data to make storage and recovery more efficient for data and time - a Binary Search Tree (BST/bst). By using an O(log n) time, we're able to store, access, and interact with even massive datasets in an efficient manner. 
 To arrange data into a bst, you take the dataset, and find the center of it, then place things on the left or right of that value, with items on the left being of a smaller value and the ones on the right being of a greater value. For the sake of clarity, an image will be drawn to demonstrate.

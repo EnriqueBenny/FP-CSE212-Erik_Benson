@@ -1,5 +1,5 @@
 # BST (Trees) Solutions:
-[return](3-topic_trees.md)
+[Return to Trees](3-topic_trees.md)
 ```python
 class BST:
     """

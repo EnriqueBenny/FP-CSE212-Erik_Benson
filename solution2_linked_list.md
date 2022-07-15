@@ -1,4 +1,6 @@
+# Linked List Solutions:
 [Return to Linked Lists](2-topic_linked_list.md)
+
 ```python
 class LinkedList:
     """
