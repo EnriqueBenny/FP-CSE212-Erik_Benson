@@ -7,7 +7,9 @@
 Trees in a programming sense are a method of sorting data to make storage and recovery more efficient for data and time - a Binary Search Tree (BST/bst). By using an O(log n) time, we're able to store, access, and interact with even massive datasets in an efficient manner. 
 To arrange data into a bst, you take the dataset, and find the center of it, then place things on the left or right of that value, with items on the left being of a smaller value and the ones on the right being of a greater value. For the sake of clarity, an image will be drawn to demonstrate.
 If we add 5 as the center, and 4 and 6 afterward, we'll see a tree arranged like this:
+
 ![tree_1](tree_1.jpeg)
+
 4 is less than 5, so it is placed on the left, while 6 is greater than 5, so it is placed on the right. With this in mind, the order you add these values to the tree are VERY important. Say you were add the values 1 to 5 to a bst, without setting the center of the data as the root, you'd get something like this:
 ![tree_4](tree_4.jpeg)
 This is inefficent, and no better than a linked list, so you've only wasted your time.
