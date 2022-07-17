@@ -5,6 +5,7 @@
 [Main menu](0-welcome.md)
 ## Intro
 Trees in a programming sense are a method of sorting data to make storage and recovery more efficient for data and time - a Binary Search Tree (BST/bst). By using an O(log n) time, we're able to store, access, and interact with even massive datasets in an efficient manner. 
+## Adding to a Tree (BST)
 To arrange data into a bst, you take the dataset, and find the center of it, then place things on the left or right of that value, with items on the left being of a smaller value and the ones on the right being of a greater value. For the sake of clarity, an image will be drawn to demonstrate.
 If we add 5 as the center, and 4 and 6 afterward, we'll see a tree arranged like this:
 
@@ -13,9 +14,10 @@ If we add 5 as the center, and 4 and 6 afterward, we'll see a tree arranged like
 4 is less than 5, so it is placed on the left, while 6 is greater than 5, so it is placed on the right. With this in mind, the order you add these values to the tree are VERY important. Say you were add the values 1 to 5 to a bst, without setting the center of the data as the root, you'd get something like this:
 ![tree_4](tree_4.jpeg)
 This is inefficent, and no better than a linked list, so you've only wasted your time.
-The process you want to follow to add items to a tree is such: the 1/2, the 1/4, and the 3/4. These items refer to the index items they are within the list. From there, you keep adding the 1/4 and 3/4 values. As you continue, you should get something that looks like this:
+The best way to add items to a bst is to first determine the first (smallest), then last (largest) item. Using these as a reference point, find the item in the center and add that one first. This will act as your root. From there, you want to add the item that is 1/4 of the way into your dataset, then the one that is 3/4 of the way in. You then add them in that pattern, 1/4 then 3/4 on repeat until you've added everything to your bst, which would leave you something looking like this:
 ![tree_3](tree_3.jpeg)
-
+## Searching a BST
+Because of the way a bst is arranged, you can theoretically search it by checking every individual value in the BST, but don't do that, it's inefficient. Rather, because a bst has such a strong logical arrangement, you can have the program make a guess on where the item ought to be in the bst, and check there. This is infinitely more efficient and allows you to take a process that would have to search through potentially millions of data points, and reduce it down significantly.
 ## Recursion
 The method that we use to add items to a bst is called recursion, it is the process of having a function call itself. 
 For example:
@@ -35,7 +37,6 @@ A few tips:
 * Creating conditions for various circumstances to occur is very important to ensuring everything works properly. 
 ## Example BST:
 ```python
-
 class BST:
     """
     Implement the Binary Search Tree (BST) data structure.  The Node 
@@ -252,7 +253,9 @@ Use the code from the example BST for this section.
 bst = BST()
 
 #Problem 1:
-#Add items to the bst from 1 to 5. Set 3 as the root, and add them in the proper order after that. Print all the items in the bst, then get the height of it.
+#Add items to the bst from 1 to 5. Set 3 as the root, 
+#and add them in the proper order after that. 
+#Print all the items in the bst, then get the height of it.
 #Hint: check the __iter__(self) comment for help with this problem.
 
 
@@ -261,7 +264,7 @@ bst = BST()
 
 
 #Problem 3:
-#Create a new bst. Add as many values of type(int) you chooose, but get the tree to be 4 tall, and use at least 6 values.
+#Create a new bst. Add as many values of type(int) you chooose, 
+#but get the tree to be 4 tall, and use at least 6 values.
 ```
-
 [Solutions](solution3_trees.md)
